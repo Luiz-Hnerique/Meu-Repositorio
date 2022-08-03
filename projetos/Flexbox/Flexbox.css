@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Ou tbm posso usar o Flex: flow row wrap*/
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px 30px;
+
+
+    padding: 16px;
+    height: 500px;
+    background-color: rgb(218, 209, 209);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.bloco-1 {
+    background-color: rgb(212, 44, 44);
+    border-radius: 5px;
+    width: 80px;
+    height: 90px;
+}
+
+.bloco-2 {
+    background-color: rgb(50, 50, 196);
+    border-radius: 5px;
+    width: 80px;
+    height: 90px;
+    /*flex-grow: 1; ou flex-shrink: x;*/
+
+}
+
+.bloco-3 {
+    background-color: rgb(22, 230, 22);
+    border-radius: 5px;
+    width: 80px;
+    height: 90px;
+}

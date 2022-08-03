@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: rgb(141, 77, 201);
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-bottom: 5px solid rgb(77, 38, 114);
+}
+
+/*Grid de Pordutos*/
+
+.container {
+    background-color: #eee;
+    min-height: 60%;
+    padding: 10px;
+}
+
+.products-container {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    margin-bottom: 10px;
+    border-left: 5px solid rgb(77, 38, 114);
+    padding-left: 7px;
+    color: rgb(141, 77, 201);
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: rgb(141, 77, 201);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid rgb(77, 38, 114);
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background-color: rgb(77, 38, 114);
+
+}
+
+
+#img-1 {
+    background-image: url(../img/tenis1.jpg);
+}
+
+#img-2 {
+    background-image: url(../img/tenis2.jpg)
+}
+
+#img-3 {
+    background-image: url(../img/tenis3.jpg)
+}
+
+#img-4 {
+    background-image: url(../img/tenis4.jpg)
+}
+
+#img-5 {
+    background-image: url(../img/tenis5.jpg)
+}
+
+#img-6 {
+    background-image: url(../img/tenis6.jpg)
+}
+
+/* Footer ou Rodapé*/
+
+footer {
+    background-color: rgb(141, 77, 201);
+    color: #eee;
+    padding: 70px;
+    text-align: center;
+    border-top: 5px solid rgb(77, 38, 114);
+}
